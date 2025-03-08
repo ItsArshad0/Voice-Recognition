@@ -3,7 +3,7 @@ from googletrans import Translator
 import pyttsx3
 import sys
 
-# ✅ Force the terminal to use UTF-8 encoding to avoid charmap error
+# forcing system to use utf-8 encoding because it was giving error while printing hindi text
 sys.stdout.reconfigure(encoding='utf-8')
 
 # Initialize recognizer, translator and text-to-speech engine
