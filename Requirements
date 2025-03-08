@@ -1,0 +1,5 @@
+You need to download libraries
+->speech_recognition(pip install speech_recognition)
+->googletrans( pip install googletrans==4.0.0-rc1) (suggesting this because the newer is quite difficult Use async with await for this newer versiom)
+->pyttsx(pip install pyttsx)
+->pyaudio(pip install pyaudio) allows your terminal for listen ypur audio)                                                   
