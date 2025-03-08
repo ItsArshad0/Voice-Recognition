@@ -40,7 +40,7 @@ def trans():
     # Translate the recognized text
     translate_text = translator.translate(result, dest=lang_input).text
     
-    print(f"✅ Translated text: {translate_text}")
+    print(f"Translated text: {translate_text}")
     
     # Convert the text to speech
     engine.say(translate_text)
